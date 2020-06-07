@@ -13,6 +13,9 @@
 		CD929071248BF0F3005C25C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD92906F248BF0F3005C25C0 /* Main.storyboard */; };
 		CD929073248BF0F6005C25C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD929072248BF0F6005C25C0 /* Assets.xcassets */; };
 		CD929076248BF0F6005C25C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD929074248BF0F6005C25C0 /* LaunchScreen.storyboard */; };
+		CD92907E248C37C2005C25C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92907D248C37C2005C25C0 /* Constants.swift */; };
+		CD929080248C3972005C25C0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92907F248C3972005C25C0 /* Video.swift */; };
+		CD929082248C39D0005C25C0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD929081248C39CF005C25C0 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CD929072248BF0F6005C25C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD929075248BF0F6005C25C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD929077248BF0F6005C25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD92907D248C37C2005C25C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD92907F248C3972005C25C0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		CD929081248C39CF005C25C0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				CD929069248BF0F3005C25C0 /* AppDelegate.swift */,
 				CD92906B248BF0F3005C25C0 /* SceneDelegate.swift */,
 				CD92906D248BF0F3005C25C0 /* ViewController.swift */,
+				CD92907D248C37C2005C25C0 /* Constants.swift */,
+				CD92907F248C3972005C25C0 /* Video.swift */,
+				CD929081248C39CF005C25C0 /* Model.swift */,
 				CD92906F248BF0F3005C25C0 /* Main.storyboard */,
 				CD929072248BF0F6005C25C0 /* Assets.xcassets */,
 				CD929074248BF0F6005C25C0 /* LaunchScreen.storyboard */,
@@ -141,6 +150,9 @@
 				CD92906E248BF0F3005C25C0 /* ViewController.swift in Sources */,
 				CD92906A248BF0F3005C25C0 /* AppDelegate.swift in Sources */,
 				CD92906C248BF0F3005C25C0 /* SceneDelegate.swift in Sources */,
+				CD929082248C39D0005C25C0 /* Model.swift in Sources */,
+				CD92907E248C37C2005C25C0 /* Constants.swift in Sources */,
+				CD929080248C3972005C25C0 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
