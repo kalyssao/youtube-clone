@@ -33,12 +33,10 @@ class Model {
             }
             
             // Parsing the data into video objects
-            
-            print(response)
         }
         
         // Kick off task
-        
+        dataTask.resume()
     }
 
 }
