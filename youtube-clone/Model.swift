@@ -19,11 +19,9 @@ class Model {
             return
         }
         
-        print("created session")
         // Get a URLSession object
         let session = URLSession.shared
         
-        print("data task.")
         // Get a data task - single call to API from URLSession Object
         let dataTask = session.dataTask(with: url!) { (data, response, error) in
             
@@ -32,7 +30,21 @@ class Model {
                 return
             }
             
-            // Parsing the data into video objects
+            do {
+                // Parsing the data into video objects
+                
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                
+                let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response)
+            }
+            
+            catch {
+                
+            }
+            
         }
         
         // Kick off task
