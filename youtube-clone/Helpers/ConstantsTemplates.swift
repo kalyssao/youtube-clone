@@ -8,7 +8,7 @@
 // Add your own key and uncomment this code.
 
 import Foundation
-struct Constants {
+/*struct Constants {
     
     static var API_KEY = ""
     static var PLAYLIST_ID = ""
@@ -17,3 +17,4 @@ struct Constants {
     static var VIDEOCELL_ID = "VideoCell"
 }
 
+*/
